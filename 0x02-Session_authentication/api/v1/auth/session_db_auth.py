@@ -25,7 +25,6 @@ class SessionDBAuth(SessionExpAuth):
             user_session = UserSession(**kwargs)
             user_session.save()
             return session_id
-        return None
 
     def user_id_for_session_id(self, session_id=None):
         """Retrieves the user id of the user associated with
