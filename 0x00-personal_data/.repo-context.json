@@ -1,0 +1,99 @@
+{
+  "project_identity": {
+    "name": "0x00. Personal Data",
+    "type": "educational",
+    "scope": "Personal data handling and privacy in Python",
+    "is_independent": false,
+    "version": "1.0",
+    "related_versions": [],
+    "description": "Learn to handle Personally Identifiable Information (PII), implement secure logging systems, and encrypt passwords while maintaining user privacy compliance."
+  },
+  "tech_stack": {
+    "primary": ["Python 3.7+"],
+    "secondary": ["MySQL", "regex"],
+    "key_libraries": ["bcrypt", "mysql-connector-python", "logging", "re"]
+  },
+  "skill_manifest": {
+    "technical": [
+      "PII Data Filtering",
+      "Secure Logging",
+      "Password Encryption",
+      "Data Privacy Compliance",
+      "Regular Expressions",
+      "Database Connection Security",
+      "Log Formatting",
+      "bcrypt Hashing"
+    ],
+    "domain": [
+      "Data Privacy",
+      "Security Engineering",
+      "Backend Development"
+    ]
+  },
+  "components": {
+    "filtered_logger": {
+      "type": "privacy",
+      "path": "/filtered_logger.py",
+      "description": "Log filtering system to redact PII from log messages"
+    },
+    "encrypt_password": {
+      "type": "security",
+      "path": "/encrypt_password.py",
+      "description": "Password encryption and validation using bcrypt"
+    },
+    "user_data": {
+      "type": "data",
+      "path": "/user_data.csv",
+      "description": "Sample user data containing PII for testing"
+    }
+  },
+  "progression": {},
+  "topics": [
+    "personal-identifiable-information",
+    "data-privacy",
+    "secure-logging",
+    "password-encryption",
+    "bcrypt",
+    "regex-filtering",
+    "mysql-security"
+  ],
+  "skillLevel": "intermediate",
+  "projectStructure": {
+    "files": 3,
+    "focus": "privacy and security fundamentals"
+  },
+  "outcomes": {
+    "technicalSkills": [
+      "Identify and protect PII in applications",
+      "Implement secure logging with data filtering",
+      "Encrypt passwords using bcrypt with salt",
+      "Validate encrypted passwords",
+      "Use regular expressions for data filtering",
+      "Connect to databases securely with environment variables",
+      "Format log messages with custom formatters"
+    ],
+    "softSkills": [
+      "Privacy awareness",
+      "Security mindset",
+      "Attention to sensitive data",
+      "Compliance thinking"
+    ]
+  },
+  "prerequisites": [
+    "Python fundamentals",
+    "Basic understanding of regular expressions",
+    "Knowledge of logging concepts",
+    "Basic database concepts"
+  ],
+  "associatedProjects": {
+    "previous": "",
+    "next": "0x01-Basic_authentication",
+    "related": ["0x03-user_authentication_service"]
+  },
+  "files": {
+    "authors_file": "../../AUTHORS",
+    "license_file": "../../LICENSE.txt",
+    "readme_file": "README.md",
+    "requirements_file": "../../requirements.txt"
+  }
+}

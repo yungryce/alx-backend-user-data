@@ -1,0 +1,106 @@
+{
+  "project_identity": {
+    "name": "0x01. Basic Authentication",
+    "type": "educational",
+    "scope": "Basic HTTP authentication in Python APIs",
+    "is_independent": false,
+    "version": "1.0",
+    "related_versions": [],
+    "description": "Implement HTTP Basic Authentication for a Flask API, including user management, authorization headers, and secure endpoint protection."
+  },
+  "tech_stack": {
+    "primary": ["Python 3.7+", "Flask"],
+    "secondary": ["Base64", "HTTP Headers"],
+    "key_libraries": ["flask", "flask-cors", "base64", "binascii"]
+  },
+  "skill_manifest": {
+    "technical": [
+      "HTTP Basic Authentication",
+      "Authorization Headers",
+      "Base64 Encoding/Decoding",
+      "Flask API Development",
+      "User Model Management",
+      "Authentication Middleware",
+      "HTTP Status Codes",
+      "API Endpoint Security",
+      "Request Header Parsing",
+      "User Credential Validation"
+    ],
+    "domain": [
+      "API Security",
+      "Web Authentication",
+      "Backend Development",
+      "HTTP Protocol"
+    ]
+  },
+  "components": {
+    "api_v1": {
+      "type": "api",
+      "path": "/api/v1",
+      "description": "Flask API with authentication endpoints and user management"
+    },
+    "models": {
+      "type": "data",
+      "path": "/models",
+      "description": "User model and base model for data serialization"
+    },
+    "auth": {
+      "type": "security",
+      "path": "/api/v1/auth",
+      "description": "Authentication classes and basic auth implementation"
+    }
+  },
+  "progression": {},
+  "topics": [
+    "http-basic-authentication",
+    "authorization-headers",
+    "base64-encoding",
+    "flask-api",
+    "user-management",
+    "authentication-middleware",
+    "api-security"
+  ],
+  "skillLevel": "intermediate",
+  "projectStructure": {
+    "api_structure": "RESTful",
+    "authentication": "Basic Auth",
+    "data_storage": "file-based"
+  },
+  "outcomes": {
+    "technicalSkills": [
+      "Implement HTTP Basic Authentication",
+      "Parse and validate Authorization headers",
+      "Encode and decode Base64 credentials",
+      "Create authentication middleware",
+      "Secure API endpoints with authentication",
+      "Manage user models and data serialization",
+      "Handle authentication errors gracefully",
+      "Design RESTful API with user management",
+      "Implement CORS for cross-origin requests"
+    ],
+    "softSkills": [
+      "Security-first development",
+      "API design principles",
+      "Error handling strategies",
+      "Code organization and structure"
+    ]
+  },
+  "prerequisites": [
+    "Python programming fundamentals",
+    "Basic Flask knowledge",
+    "Understanding of HTTP protocol",
+    "Knowledge of Base64 encoding",
+    "Basic API concepts"
+  ],
+  "associatedProjects": {
+    "previous": "0x00-personal_data",
+    "next": "0x02-Session_authentication",
+    "related": ["0x02-Session_authentication", "0x03-user_authentication_service"]
+  },
+  "files": {
+    "authors_file": "",
+    "license_file": "",
+    "readme_file": "README.md",
+    "requirements_file": "requirements.txt"
+  }
+}

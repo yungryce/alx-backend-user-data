@@ -1,0 +1,106 @@
+{
+  "project_identity": {
+    "name": "0x02. Session Authentication",
+    "type": "educational",
+    "scope": "Session-based authentication in Python APIs",
+    "is_independent": false,
+    "version": "1.0",
+    "related_versions": [],
+    "description": "Implement session-based authentication for Flask APIs, including session management, user sessions, and cookie-based authentication mechanisms."
+  },
+  "tech_stack": {
+    "primary": ["Python 3.7+", "Flask"],
+    "secondary": ["Cookies", "Sessions", "UUID"],
+    "key_libraries": ["flask", "flask-cors", "uuid"]
+  },
+  "skill_manifest": {
+    "technical": [
+      "Session-based Authentication",
+      "Cookie Management",
+      "Session Storage",
+      "User Session Tracking",
+      "Session ID Generation",
+      "Session Expiration",
+      "Authentication Inheritance",
+      "Session Validation",
+      "Cookie Security",
+      "Session Persistence"
+    ],
+    "domain": [
+      "Web Authentication",
+      "Session Management",
+      "API Security",
+      "Backend Development"
+    ]
+  },
+  "components": {
+    "session_auth": {
+      "type": "authentication",
+      "path": "/api/v1/auth/session_auth.py",
+      "description": "Session authentication class extending basic authentication"
+    },
+    "session_storage": {
+      "type": "storage",
+      "path": "/api/v1/auth/session_exp_auth.py",
+      "description": "Session storage with expiration management"
+    },
+    "user_session": {
+      "type": "model",
+      "path": "/models/user_session.py",
+      "description": "User session model for persistent session storage"
+    }
+  },
+  "progression": {},
+  "topics": [
+    "session-authentication",
+    "cookie-management",
+    "session-storage",
+    "user-sessions",
+    "session-expiration",
+    "authentication-inheritance",
+    "session-security"
+  ],
+  "skillLevel": "intermediate",
+  "projectStructure": {
+    "authentication": "Session-based",
+    "storage": "in-memory and file-based",
+    "inheritance": "extends Basic Auth"
+  },
+  "outcomes": {
+    "technicalSkills": [
+      "Implement session-based authentication systems",
+      "Manage user sessions with cookies",
+      "Generate and validate session IDs",
+      "Handle session expiration and cleanup",
+      "Extend authentication classes with inheritance",
+      "Store and retrieve session data",
+      "Secure session management practices",
+      "Implement logout functionality",
+      "Design persistent session storage"
+    ],
+    "softSkills": [
+      "System design thinking",
+      "Security best practices",
+      "Code reusability through inheritance",
+      "State management concepts"
+    ]
+  },
+  "prerequisites": [
+    "Completion of Basic Authentication project",
+    "Understanding of HTTP cookies",
+    "Knowledge of session concepts",
+    "Object-oriented programming in Python",
+    "Flask framework basics"
+  ],
+  "associatedProjects": {
+    "previous": "0x01-Basic_authentication",
+    "next": "0x03-user_authentication_service",
+    "related": ["0x01-Basic_authentication", "0x03-user_authentication_service"]
+  },
+  "files": {
+    "authors_file": "../../AUTHORS",
+    "license_file": "../../LICENSE.txt",
+    "readme_file": "README.md",
+    "requirements_file": "../../requirements.txt"
+  }
+}
